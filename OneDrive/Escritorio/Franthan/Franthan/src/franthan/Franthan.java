@@ -14,7 +14,7 @@ public class Franthan {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Gestión de usuarios en progreso...");
+        System.out.println("Funcionalidad en desarrollo...");
     }
     
 }
