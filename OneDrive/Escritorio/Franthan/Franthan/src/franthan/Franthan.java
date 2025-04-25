@@ -14,7 +14,7 @@ public class Franthan {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Sistema de usuarios completo.");
+        System.out.println("Sistema en desarrollo por completar.");
     }
     
 }
