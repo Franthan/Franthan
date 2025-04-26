@@ -1,20 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package franthan;
 
-/**
- *
- * @author FRANCESCO
- */
-public class Franthan {
+import franthan.usuarios.UsuarioManager;
 
-    /**
-     * @param args the command line arguments
-     */
+public class Franthan {
     public static void main(String[] args) {
-        System.out.println("Sistema en desarrollo por completar.");
+        UsuarioManager um = new UsuarioManager();
+        um.registrarUsuario("Francesco");
+        um.registrarUsuario("Ana", "admin");
+        um.mostrarUsuario(0);
+        um.mostrarUsuario(5);  // provocará error
+        um.listarUsuarios();
     }
-    
 }
